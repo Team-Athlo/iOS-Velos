@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B42D3222D3297F400290FD6 /* iOS_VelosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D3212D3297F400290FD6 /* iOS_VelosApp.swift */; };
+		9B42D3242D3297F400290FD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D3232D3297F400290FD6 /* ContentView.swift */; };
+		9B42D3262D3297F500290FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B42D3252D3297F500290FD6 /* Assets.xcassets */; };
+		9B42D3292D3297F500290FD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B42D3282D3297F500290FD6 /* Preview Assets.xcassets */; };
+		9B42D3332D3297F500290FD6 /* iOS_VelosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D3322D3297F500290FD6 /* iOS_VelosTests.swift */; };
+		9B42D33D2D3297F500290FD6 /* iOS_VelosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D33C2D3297F500290FD6 /* iOS_VelosUITests.swift */; };
+		9B42D33F2D3297F500290FD6 /* iOS_VelosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D33E2D3297F500290FD6 /* iOS_VelosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B42D32F2D3297F500290FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B42D3162D3297F400290FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B42D31D2D3297F400290FD6;
+			remoteInfo = "iOS-Velos";
+		};
+		9B42D3392D3297F500290FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B42D3162D3297F400290FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B42D31D2D3297F400290FD6;
+			remoteInfo = "iOS-Velos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B42D31E2D3297F400290FD6 /* iOS-Velos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Velos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B42D3212D3297F400290FD6 /* iOS_VelosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_VelosApp.swift; sourceTree = "<group>"; };
+		9B42D3232D3297F400290FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B42D3252D3297F500290FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B42D3282D3297F500290FD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B42D32E2D3297F500290FD6 /* iOS-VelosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-VelosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B42D3322D3297F500290FD6 /* iOS_VelosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_VelosTests.swift; sourceTree = "<group>"; };
+		9B42D3382D3297F500290FD6 /* iOS-VelosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-VelosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B42D33C2D3297F500290FD6 /* iOS_VelosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_VelosUITests.swift; sourceTree = "<group>"; };
+		9B42D33E2D3297F500290FD6 /* iOS_VelosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_VelosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B42D31B2D3297F400290FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B42D32B2D3297F500290FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B42D3352D3297F500290FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B42D3152D3297F400290FD6 = {
+			isa = PBXGroup;
+			children = (
+				9B42D3202D3297F400290FD6 /* iOS-Velos */,
+				9B42D3312D3297F500290FD6 /* iOS-VelosTests */,
+				9B42D33B2D3297F500290FD6 /* iOS-VelosUITests */,
+				9B42D31F2D3297F400290FD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B42D31F2D3297F400290FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B42D31E2D3297F400290FD6 /* iOS-Velos.app */,
+				9B42D32E2D3297F500290FD6 /* iOS-VelosTests.xctest */,
+				9B42D3382D3297F500290FD6 /* iOS-VelosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B42D3202D3297F400290FD6 /* iOS-Velos */ = {
+			isa = PBXGroup;
+			children = (
+				9B42D3212D3297F400290FD6 /* iOS_VelosApp.swift */,
+				9B42D3232D3297F400290FD6 /* ContentView.swift */,
+				9B42D3252D3297F500290FD6 /* Assets.xcassets */,
+				9B42D3272D3297F500290FD6 /* Preview Content */,
+			);
+			path = "iOS-Velos";
+			sourceTree = "<group>";
+		};
+		9B42D3272D3297F500290FD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B42D3282D3297F500290FD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B42D3312D3297F500290FD6 /* iOS-VelosTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B42D3322D3297F500290FD6 /* iOS_VelosTests.swift */,
+			);
+			path = "iOS-VelosTests";
+			sourceTree = "<group>";
+		};
+		9B42D33B2D3297F500290FD6 /* iOS-VelosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B42D33C2D3297F500290FD6 /* iOS_VelosUITests.swift */,
+				9B42D33E2D3297F500290FD6 /* iOS_VelosUITestsLaunchTests.swift */,
+			);
+			path = "iOS-VelosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B42D31D2D3297F400290FD6 /* iOS-Velos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B42D3422D3297F500290FD6 /* Build configuration list for PBXNativeTarget "iOS-Velos" */;
+			buildPhases = (
+				9B42D31A2D3297F400290FD6 /* Sources */,
+				9B42D31B2D3297F400290FD6 /* Frameworks */,
+				9B42D31C2D3297F400290FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Velos";
+			productName = "iOS-Velos";
+			productReference = 9B42D31E2D3297F400290FD6 /* iOS-Velos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B42D32D2D3297F500290FD6 /* iOS-VelosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B42D3452D3297F500290FD6 /* Build configuration list for PBXNativeTarget "iOS-VelosTests" */;
+			buildPhases = (
+				9B42D32A2D3297F500290FD6 /* Sources */,
+				9B42D32B2D3297F500290FD6 /* Frameworks */,
+				9B42D32C2D3297F500290FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B42D3302D3297F500290FD6 /* PBXTargetDependency */,
+			);
+			name = "iOS-VelosTests";
+			productName = "iOS-VelosTests";
+			productReference = 9B42D32E2D3297F500290FD6 /* iOS-VelosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B42D3372D3297F500290FD6 /* iOS-VelosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B42D3482D3297F500290FD6 /* Build configuration list for PBXNativeTarget "iOS-VelosUITests" */;
+			buildPhases = (
+				9B42D3342D3297F500290FD6 /* Sources */,
+				9B42D3352D3297F500290FD6 /* Frameworks */,
+				9B42D3362D3297F500290FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B42D33A2D3297F500290FD6 /* PBXTargetDependency */,
+			);
+			name = "iOS-VelosUITests";
+			productName = "iOS-VelosUITests";
+			productReference = 9B42D3382D3297F500290FD6 /* iOS-VelosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B42D3162D3297F400290FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9B42D31D2D3297F400290FD6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9B42D32D2D3297F500290FD6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9B42D31D2D3297F400290FD6;
+					};
+					9B42D3372D3297F500290FD6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9B42D31D2D3297F400290FD6;
+					};
+				};
+			};
+			buildConfigurationList = 9B42D3192D3297F400290FD6 /* Build configuration list for PBXProject "iOS-Velos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B42D3152D3297F400290FD6;
+			productRefGroup = 9B42D31F2D3297F400290FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B42D31D2D3297F400290FD6 /* iOS-Velos */,
+				9B42D32D2D3297F500290FD6 /* iOS-VelosTests */,
+				9B42D3372D3297F500290FD6 /* iOS-VelosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B42D31C2D3297F400290FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B42D3292D3297F500290FD6 /* Preview Assets.xcassets in Resources */,
+				9B42D3262D3297F500290FD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B42D32C2D3297F500290FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B42D3362D3297F500290FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B42D31A2D3297F400290FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B42D3242D3297F400290FD6 /* ContentView.swift in Sources */,
+				9B42D3222D3297F400290FD6 /* iOS_VelosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B42D32A2D3297F500290FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B42D3332D3297F500290FD6 /* iOS_VelosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B42D3342D3297F500290FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B42D33F2D3297F500290FD6 /* iOS_VelosUITestsLaunchTests.swift in Sources */,
+				9B42D33D2D3297F500290FD6 /* iOS_VelosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B42D3302D3297F500290FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B42D31D2D3297F400290FD6 /* iOS-Velos */;
+			targetProxy = 9B42D32F2D3297F500290FD6 /* PBXContainerItemProxy */;
+		};
+		9B42D33A2D3297F500290FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B42D31D2D3297F400290FD6 /* iOS-Velos */;
+			targetProxy = 9B42D3392D3297F500290FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B42D3402D3297F500290FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B42D3412D3297F500290FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B42D3432D3297F500290FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-Velos/Preview Content\"";
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellen.iOS-Velos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B42D3442D3297F500290FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-Velos/Preview Content\"";
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellen.iOS-Velos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B42D3462D3297F500290FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellen.iOS-VelosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Velos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Velos";
+			};
+			name = Debug;
+		};
+		9B42D3472D3297F500290FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellen.iOS-VelosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Velos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Velos";
+			};
+			name = Release;
+		};
+		9B42D3492D3297F500290FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellen.iOS-VelosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Velos";
+			};
+			name = Debug;
+		};
+		9B42D34A2D3297F500290FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RUFP7D8BXB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellen.iOS-VelosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Velos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B42D3192D3297F400290FD6 /* Build configuration list for PBXProject "iOS-Velos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42D3402D3297F500290FD6 /* Debug */,
+				9B42D3412D3297F500290FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B42D3422D3297F500290FD6 /* Build configuration list for PBXNativeTarget "iOS-Velos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42D3432D3297F500290FD6 /* Debug */,
+				9B42D3442D3297F500290FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B42D3452D3297F500290FD6 /* Build configuration list for PBXNativeTarget "iOS-VelosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42D3462D3297F500290FD6 /* Debug */,
+				9B42D3472D3297F500290FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B42D3482D3297F500290FD6 /* Build configuration list for PBXNativeTarget "iOS-VelosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B42D3492D3297F500290FD6 /* Debug */,
+				9B42D34A2D3297F500290FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B42D3162D3297F400290FD6 /* Project object */;
+}
