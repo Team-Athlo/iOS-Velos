@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B06B9CD2D34E62500E1E89B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9CC2D34E62500E1E89B /* HomeView.swift */; };
+		9B06B9CF2D34E64C00E1E89B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9CE2D34E64C00E1E89B /* HomeViewModel.swift */; };
+		9B06B9D42D350FD200E1E89B /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9D32D350FD200E1E89B /* SummaryCell.swift */; };
+		9B06B9D62D351CE600E1E89B /* WeeklyCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9D52D351CE600E1E89B /* WeeklyCellView.swift */; };
+		9B06B9D82D35343E00E1E89B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9D72D35343E00E1E89B /* FeedView.swift */; };
+		9B06B9DA2D35348F00E1E89B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9D92D35348F00E1E89B /* ProfileView.swift */; };
+		9B06B9DD2D3537BA00E1E89B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9DC2D3537BA00E1E89B /* FeedCell.swift */; };
+		9B06B9DF2D35488B00E1E89B /* FeedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9DE2D35488B00E1E89B /* FeedButtonView.swift */; };
+		9B06B9E12D3548EA00E1E89B /* FeedImageSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06B9E02D3548EA00E1E89B /* FeedImageSlideView.swift */; };
 		9B42D3222D3297F400290FD6 /* iOS_VelosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D3212D3297F400290FD6 /* iOS_VelosApp.swift */; };
-		9B42D3242D3297F400290FD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D3232D3297F400290FD6 /* ContentView.swift */; };
 		9B42D3262D3297F500290FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B42D3252D3297F500290FD6 /* Assets.xcassets */; };
 		9B42D3292D3297F500290FD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B42D3282D3297F500290FD6 /* Preview Assets.xcassets */; };
 		9B42D3332D3297F500290FD6 /* iOS_VelosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D3322D3297F500290FD6 /* iOS_VelosTests.swift */; };
@@ -34,9 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B06B9CC2D34E62500E1E89B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9B06B9CE2D34E64C00E1E89B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9B06B9D22D34E70100E1E89B /* iOS-Velos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-Velos.entitlements"; sourceTree = "<group>"; };
+		9B06B9D32D350FD200E1E89B /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
+		9B06B9D52D351CE600E1E89B /* WeeklyCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyCellView.swift; sourceTree = "<group>"; };
+		9B06B9D72D35343E00E1E89B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		9B06B9D92D35348F00E1E89B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9B06B9DC2D3537BA00E1E89B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		9B06B9DE2D35488B00E1E89B /* FeedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedButtonView.swift; sourceTree = "<group>"; };
+		9B06B9E02D3548EA00E1E89B /* FeedImageSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageSlideView.swift; sourceTree = "<group>"; };
 		9B42D31E2D3297F400290FD6 /* iOS-Velos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Velos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B42D3212D3297F400290FD6 /* iOS_VelosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_VelosApp.swift; sourceTree = "<group>"; };
-		9B42D3232D3297F400290FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B42D3252D3297F500290FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B42D3282D3297F500290FD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B42D32E2D3297F500290FD6 /* iOS-VelosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-VelosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +88,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B06B9D02D34E65A00E1E89B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9B06B9CC2D34E62500E1E89B /* HomeView.swift */,
+				9B06B9D52D351CE600E1E89B /* WeeklyCellView.swift */,
+				9B06B9D32D350FD200E1E89B /* SummaryCell.swift */,
+				9B06B9CE2D34E64C00E1E89B /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9B06B9D12D34E65F00E1E89B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				9B06B9D02D34E65A00E1E89B /* Home */,
+				9B06B9DB2D3535EE00E1E89B /* Feed */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		9B06B9DB2D3535EE00E1E89B /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				9B06B9D72D35343E00E1E89B /* FeedView.swift */,
+				9B06B9DC2D3537BA00E1E89B /* FeedCell.swift */,
+				9B06B9D92D35348F00E1E89B /* ProfileView.swift */,
+				9B06B9E02D3548EA00E1E89B /* FeedImageSlideView.swift */,
+				9B06B9DE2D35488B00E1E89B /* FeedButtonView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		9B42D3152D3297F400290FD6 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +143,9 @@
 		9B42D3202D3297F400290FD6 /* iOS-Velos */ = {
 			isa = PBXGroup;
 			children = (
+				9B06B9D22D34E70100E1E89B /* iOS-Velos.entitlements */,
 				9B42D3212D3297F400290FD6 /* iOS_VelosApp.swift */,
-				9B42D3232D3297F400290FD6 /* ContentView.swift */,
+				9B06B9D12D34E65F00E1E89B /* Scene */,
 				9B42D3252D3297F500290FD6 /* Assets.xcassets */,
 				9B42D3272D3297F500290FD6 /* Preview Content */,
 			);
@@ -257,8 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B42D3242D3297F400290FD6 /* ContentView.swift in Sources */,
+				9B06B9CD2D34E62500E1E89B /* HomeView.swift in Sources */,
+				9B06B9CF2D34E64C00E1E89B /* HomeViewModel.swift in Sources */,
+				9B06B9D42D350FD200E1E89B /* SummaryCell.swift in Sources */,
 				9B42D3222D3297F400290FD6 /* iOS_VelosApp.swift in Sources */,
+				9B06B9D82D35343E00E1E89B /* FeedView.swift in Sources */,
+				9B06B9DD2D3537BA00E1E89B /* FeedCell.swift in Sources */,
+				9B06B9E12D3548EA00E1E89B /* FeedImageSlideView.swift in Sources */,
+				9B06B9DF2D35488B00E1E89B /* FeedButtonView.swift in Sources */,
+				9B06B9DA2D35348F00E1E89B /* ProfileView.swift in Sources */,
+				9B06B9D62D351CE600E1E89B /* WeeklyCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +477,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS-Velos/iOS-Velos.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS-Velos/Preview Content\"";
 				DEVELOPMENT_TEAM = RUFP7D8BXB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "건강 데이터 수집이 필요합니다.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "건강 데이터 업데이트가 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,12 +509,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS-Velos/iOS-Velos.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS-Velos/Preview Content\"";
 				DEVELOPMENT_TEAM = RUFP7D8BXB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "건강 데이터 수집이 필요합니다.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "건강 데이터 업데이트가 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
