@@ -12,6 +12,8 @@ struct FeedButtonView: View {
 
     var body: some View {
         HStack {
+            Spacer()
+
             Button {
                 print("like")
             } label: {
@@ -23,7 +25,7 @@ struct FeedButtonView: View {
                 }
             }
 
-            Spacer()
+            Spacer(minLength: 50)
 
             Button {
                 print("comment")
@@ -35,8 +37,9 @@ struct FeedButtonView: View {
                         .font(.footnote)
                 }
             }
+
+            Spacer()
         }
-        .padding(70)
     }
 
     init(feedData: Feed) {

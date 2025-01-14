@@ -10,29 +10,60 @@ import SwiftUI
 struct FeedImageSlideView: View {
 
     private let feedData: Feed
+    @State private var currentIndex: Int = 0
+
     var body: some View {
-        ScrollView(.horizontal) {
-            LazyHGrid(rows: [GridItem(.flexible())], content: {
-                ForEach(feedData.images, id: \.self) { url in
-                    AsyncImage(url: URL(string: url)) { phase in
-                        if let image = phase.image {
-                            image
-                                .resizable()
-                                .scaledToFill()
-                                .aspectRatio(1/1, contentMode: .fill)
-                                .clipped()
-                        } else {
-                            Rectangle()
-                                .foregroundStyle(.gray)
-                                .aspectRatio(1/1, contentMode: .fill)
+        ZStack {
+            GeometryReader { geometry in
+                TabView(
+                    selection: $currentIndex,
+                    content:  {
+                        ForEach(feedData.images.indices, id: \.self) { indexPath in
+                            AsyncImage(url: URL(string: feedData.images[indexPath])) { phase in
+                                if let image = phase.image {
+                                    image
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: geometry.size.width, height: geometry.size.width)
+                                        .clipped()
+                                        .tag(indexPath)
+                                } else if phase.error != nil {
+                                    Rectangle()
+                                        .foregroundColor(.gray)
+                                        .frame(width: geometry.size.width, height: geometry.size.width)
+                                        .overlay(Text("Failed to load").foregroundColor(.white))
+                                } else {
+                                    ZStack {
+                                        Rectangle()
+                                            .frame(width: geometry.size.width, height: geometry.size.width)
+                                        ProgressView()
+                                    }
+                                }
+                            }
                         }
                     }
-                }
-            })
-        }
-        .scrollDisabled(feedData.images.count == 1 ? true : false)
-        .scrollIndicators(.hidden)
+                )
+            }
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
 
+            if feedData.images.count != 1 {
+                VStack {
+                    HStack {
+                        Spacer()
+
+                        Text("\(currentIndex + 1)/\(feedData.images.count)")
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .padding(8)
+                            .background(Color.black.opacity(0.5))
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                            .padding()
+                    }
+                    Spacer()
+                }
+            }
+        }
     }
 
     init(feedData: Feed) {

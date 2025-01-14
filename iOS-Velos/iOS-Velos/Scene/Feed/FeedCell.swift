@@ -16,14 +16,14 @@ struct FeedCell: View {
                 .foregroundStyle(.white)
 
             VStack {
-                Spacer()
-                    .frame(height: 16)
+                Spacer(minLength: 16)
 
                 HStack {
                     ProfileView(profileUrl: URL(string: feedData.profileUrl))
                     Text(feedData.userName)
                         .fontWeight(.bold)
                         .font(.subheadline)
+                        .foregroundStyle(.black)
                     Spacer()
                     Button {
                         print("더 보기")
@@ -35,17 +35,20 @@ struct FeedCell: View {
 
                 FeedImageSlideView(feedData: feedData)
 
-                Text(feedData.description)
-                    .font(.footnote)
-                    .multilineTextAlignment(.leading)
+                Spacer(minLength: 16)
 
-                Spacer()
-                    .frame(height: 24)
+                Text(feedData.description)
+                    .lineLimit(3)
+                    .multilineTextAlignment(.leading)
+                    .font(.footnote)
+                    .foregroundStyle(.black)
+                    .padding()
+
+                Spacer(minLength: 24)
 
                 FeedButtonView(feedData: feedData)
 
-                Spacer()
-                    .frame(height: 16)
+                Spacer(minLength: 16)
             }
         }
     }

@@ -48,12 +48,10 @@ final class HomeViewModel {
             return
         }
 
-        // 날짜 범위 설정
         let startDate = Calendar.current.date(byAdding: .month, value: -3, to: Date())!
         let endDate = Date()
         let predicate = HKQuery.predicateForSamples(withStart: startDate, end: endDate, options: .strictStartDate)
 
-        // 쿼리 생성
         let query = HKStatisticsQuery(quantityType: distanceType, quantitySamplePredicate: predicate, options: .cumulativeSum) { query, statistics, error in
             if let error = error {
                 print("Error fetching statistics: \(error.localizedDescription)")
