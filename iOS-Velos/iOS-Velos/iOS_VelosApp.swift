@@ -45,5 +45,6 @@ struct iOS_VelosApp: App {
 
     init() {
         UITabBar.appearance().backgroundColor = .white
+        UITabBar.appearance().standardAppearance.configureWithOpaqueBackground()
     }
 }

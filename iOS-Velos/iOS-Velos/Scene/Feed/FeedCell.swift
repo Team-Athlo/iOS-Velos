@@ -30,7 +30,7 @@ struct FeedCell: View {
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 5))
                     }
                 }
-                .padding(EdgeInsets(top: 15, leading: 10, bottom: 5, trailing: 15))
+                .padding(EdgeInsets(top: 16, leading: 10, bottom: 5, trailing: 15))
 
                 FeedImageSlideView(feedData: feedData)
                     .frame(minHeight: 350)
@@ -38,16 +38,27 @@ struct FeedCell: View {
                 TrainingSummaryView(feedData: feedData)
                     .padding()
 
-                HStack {
-                    Text(feedData.description)
-                        .lineLimit(3)
-                        .multilineTextAlignment(.leading)
-                        .font(.footnote)
-                        .foregroundStyle(.black)
-                        .padding()
-                    
-                    Spacer()
-                }
+                    VStack {
+                        HStack {
+                            Text(feedData.description)
+                                .lineLimit(3)
+                                .multilineTextAlignment(.leading)
+                                .font(.subheadline)
+                                .foregroundStyle(.black)
+                                .padding(EdgeInsets(top: 10, leading: 16, bottom: 5, trailing: 0))
+                         Spacer()
+                        }
+
+                        HStack {
+                            Text(feedData.postingDate)
+                                .lineLimit(1)
+                                .multilineTextAlignment(.leading)
+                                .font(.caption)
+                                .foregroundStyle(.gray)
+                                .padding(EdgeInsets(top: 0, leading: 16, bottom: 16, trailing: 0))
+                            Spacer()
+                        }
+                    }
 
                 FeedButtonView(feedData: feedData)
             }

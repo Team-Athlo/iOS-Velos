@@ -19,6 +19,7 @@ struct Feed {
     let description: String
     let numberOflike: Int
     let numberOfComment: Int
+    let postingDate: String
 }
 
 struct FeedView: View {
@@ -36,7 +37,8 @@ struct FeedView: View {
             totalMovingTime: "3:40:32",
             description: "남산 코스 너무 힘들었다 하지만 재미있었지.....\n다음에 리벤지 해야겠다.\n가능?",
             numberOflike: 2,
-            numberOfComment: 4
+            numberOfComment: 4,
+            postingDate: "1시간 전"
         ),
         .init(
             userId: "jeon",
@@ -50,7 +52,8 @@ struct FeedView: View {
             totalMovingTime: "1:40:22",
             description: "오늘은 죠니님과 데이트!!!",
             numberOflike: 199,
-            numberOfComment: 0
+            numberOfComment: 0,
+            postingDate: "2024년 11월 1일"
         ),
         .init(
             userId: "mal",
@@ -65,7 +68,9 @@ struct FeedView: View {
             totalMovingTime: "1:40:22",
             description: "여자친구랑 데이트 즐거웠다",
             numberOflike: 1,
-            numberOfComment: 999
+            numberOfComment: 999,
+            postingDate: "2024년 10월 27일"
+
         )
     ]
 
