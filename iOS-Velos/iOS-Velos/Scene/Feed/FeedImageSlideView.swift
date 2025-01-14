@@ -14,7 +14,6 @@ struct FeedImageSlideView: View {
 
     var body: some View {
         ZStack {
-            GeometryReader { geometry in
                 TabView(
                     selection: $currentIndex,
                     content:  {
@@ -24,18 +23,15 @@ struct FeedImageSlideView: View {
                                     image
                                         .resizable()
                                         .scaledToFill()
-                                        .frame(width: geometry.size.width, height: geometry.size.width)
                                         .clipped()
                                         .tag(indexPath)
                                 } else if phase.error != nil {
                                     Rectangle()
                                         .foregroundColor(.gray)
-                                        .frame(width: geometry.size.width, height: geometry.size.width)
                                         .overlay(Text("Failed to load").foregroundColor(.white))
                                 } else {
                                     ZStack {
                                         Rectangle()
-                                            .frame(width: geometry.size.width, height: geometry.size.width)
                                         ProgressView()
                                     }
                                 }
@@ -43,7 +39,6 @@ struct FeedImageSlideView: View {
                         }
                     }
                 )
-            }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
 
             if feedData.images.count != 1 {

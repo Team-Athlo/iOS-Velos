@@ -12,34 +12,38 @@ struct FeedButtonView: View {
 
     var body: some View {
         HStack {
-            Spacer()
-
             Button {
                 print("like")
             } label: {
-                HStack {
-                    Image(systemName: "heart.fill")
-                    Text("\(feedData.numberOflike)")
-                        .fontWeight(.semibold)
-                        .font(.footnote)
+                ZStack {
+                    Rectangle()
+                        .foregroundStyle(.white)
+
+                    HStack {
+                        Image(systemName: "heart.fill")
+                        Text("\(feedData.numberOflike)")
+                            .fontWeight(.semibold)
+                            .font(.footnote)
+                    }
                 }
             }
-
-            Spacer(minLength: 50)
 
             Button {
                 print("comment")
             } label: {
-                HStack {
-                    Image(systemName: "bubble.right.fill")
-                    Text("\(feedData.numberOfComment)")
-                        .fontWeight(.semibold)
-                        .font(.footnote)
+                ZStack {
+                    Rectangle()
+                        .foregroundStyle(.white)
+                    HStack {
+                        Image(systemName: "bubble.right.fill")
+                        Text("\(feedData.numberOfComment)")
+                            .fontWeight(.semibold)
+                            .font(.footnote)
+                    }
                 }
             }
-
-            Spacer()
         }
+        .padding()
     }
 
     init(feedData: Feed) {

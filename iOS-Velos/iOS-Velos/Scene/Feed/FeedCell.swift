@@ -16,8 +16,6 @@ struct FeedCell: View {
                 .foregroundStyle(.white)
 
             VStack {
-                Spacer(minLength: 16)
-
                 HStack {
                     ProfileView(profileUrl: URL(string: feedData.profileUrl))
                     Text(feedData.userName)
@@ -29,26 +27,29 @@ struct FeedCell: View {
                         print("더 보기")
                     } label: {
                         Image(systemName: "ellipsis")
+                            .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 5))
                     }
                 }
-                .padding(10)
+                .padding(EdgeInsets(top: 15, leading: 10, bottom: 5, trailing: 15))
 
                 FeedImageSlideView(feedData: feedData)
+                    .frame(minHeight: 350)
 
-                Spacer(minLength: 16)
-
-                Text(feedData.description)
-                    .lineLimit(3)
-                    .multilineTextAlignment(.leading)
-                    .font(.footnote)
-                    .foregroundStyle(.black)
+                TrainingSummaryView(feedData: feedData)
                     .padding()
 
-                Spacer(minLength: 24)
+                HStack {
+                    Text(feedData.description)
+                        .lineLimit(3)
+                        .multilineTextAlignment(.leading)
+                        .font(.footnote)
+                        .foregroundStyle(.black)
+                        .padding()
+                    
+                    Spacer()
+                }
 
                 FeedButtonView(feedData: feedData)
-
-                Spacer(minLength: 16)
             }
         }
     }

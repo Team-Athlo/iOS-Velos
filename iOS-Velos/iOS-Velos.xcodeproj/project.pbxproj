@@ -22,6 +22,7 @@
 		9B42D3332D3297F500290FD6 /* iOS_VelosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D3322D3297F500290FD6 /* iOS_VelosTests.swift */; };
 		9B42D33D2D3297F500290FD6 /* iOS_VelosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D33C2D3297F500290FD6 /* iOS_VelosUITests.swift */; };
 		9B42D33F2D3297F500290FD6 /* iOS_VelosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42D33E2D3297F500290FD6 /* iOS_VelosUITestsLaunchTests.swift */; };
+		9BDCCC0D2D3645CD0099EBB1 /* TrainingSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCCC0C2D3645CD0099EBB1 /* TrainingSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		9B42D3382D3297F500290FD6 /* iOS-VelosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-VelosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B42D33C2D3297F500290FD6 /* iOS_VelosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_VelosUITests.swift; sourceTree = "<group>"; };
 		9B42D33E2D3297F500290FD6 /* iOS_VelosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_VelosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BDCCC0C2D3645CD0099EBB1 /* TrainingSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				9B06B9D72D35343E00E1E89B /* FeedView.swift */,
 				9B06B9DC2D3537BA00E1E89B /* FeedCell.swift */,
+				9BDCCC0C2D3645CD0099EBB1 /* TrainingSummaryView.swift */,
 				9B06B9D92D35348F00E1E89B /* ProfileView.swift */,
 				9B06B9E02D3548EA00E1E89B /* FeedImageSlideView.swift */,
 				9B06B9DE2D35488B00E1E89B /* FeedButtonView.swift */,
@@ -315,6 +318,7 @@
 				9B06B9DD2D3537BA00E1E89B /* FeedCell.swift in Sources */,
 				9B06B9E12D3548EA00E1E89B /* FeedImageSlideView.swift in Sources */,
 				9B06B9DF2D35488B00E1E89B /* FeedButtonView.swift in Sources */,
+				9BDCCC0D2D3645CD0099EBB1 /* TrainingSummaryView.swift in Sources */,
 				9B06B9DA2D35348F00E1E89B /* ProfileView.swift in Sources */,
 				9B06B9D62D351CE600E1E89B /* WeeklyCellView.swift in Sources */,
 			);
